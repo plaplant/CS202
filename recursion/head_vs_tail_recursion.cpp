@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// head recursion
 void head_print(int num) {
   if (num == 0) {
     return;
@@ -12,6 +13,7 @@ void head_print(int num) {
   cout << num << endl;
 }
 
+// tail recursion
 void tail_print(int num) {
   if (num == 0) {
     return;
